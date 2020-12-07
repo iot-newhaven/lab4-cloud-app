@@ -1,4 +1,4 @@
-# Lab4 - Cloud app
+# Project 5 - Cloud app
 
 1. Download and instal Node.js <https://nodejs.org/en/>
 2. Open a terminal console
