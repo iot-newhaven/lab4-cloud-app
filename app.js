@@ -9,7 +9,7 @@ var token;
 // Timer interval function
 // Get Particle variable using token
 function pollTemperature(arg) {
-    particle.getVariable({ deviceId: 'DEVICE-ID', name: 'temp', auth: token }).then(function (data) {
+    particle.getVariable({ deviceId: 'DEVICE-ID', name: 'tempF', auth: token }).then(function (data) {
         console.log('Device variable retrieved successfully:', data);
     }, function (err) {
         console.log('An error occurred while getting attrs:', err);
